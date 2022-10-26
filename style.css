@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main-body{
+    display: flex;
+}
+
+.right{
+    height: 400px;
+    border: 1px solid;
+   margin-left: 200px;
+   margin-top: 100px;
+}
+.login-form{
+    padding: 4px;
+
+}
