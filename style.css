@@ -1,20 +1,87 @@
+/* default settngs for page */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    background-color: #fafafa;
 }
 
+/* main section */
 .main-body{
     display: flex;
+    padding-top: 25px;
 }
 
-.right{
-    height: 400px;
-    border: 1px solid;
-   margin-left: 200px;
-   margin-top: 100px;
+/* left section with iphone */
+.left {
+    padding-left: 519px;
+    padding-top: 20px;
 }
+
+/* right section with login form  */
+.right{
+    height: 415px;
+    border: 1px solid;
+    margin-left: -5px;
+    margin-top: 53px;
+    width: 331px;
+}
+
 .login-form{
     padding: 4px;
+    color: white;
 
+}
+
+.logo{
+   padding-left: 60px;
+   padding-top: 32px;
+
+
+}
+
+.form{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.input-field{
+    width: 279px;
+    height: 30px;
+    margin-top: 10px;
+    border-color: aliceblue;
+    border: 0.5px solid;
+}
+
+/* login button section */
+.button{
+    margin-top: 10px;
+    width: 261px;
+    height: 30px;
+    background-color: #3897f0;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: aliceblue;
+}
+
+/* login with facebook and forgott button */
+.fb{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+.fb h6{
+    
+    margin-top: 10px;
+}
+.fb h6 a{
+    text-decoration: none;
+}
+
+/* lower section of the input page */
+.lower-part{
+    margin-left: -4px;
+margin-top:20px;
+width: 331px;
+height: 70px;
+border: 1px solid;
 }
