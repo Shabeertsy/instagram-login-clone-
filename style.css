@@ -3,7 +3,11 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
+}
+body{
     background-color: #fafafa;
+    font-family:Helvetica, sans-serif ;
 }
 
 /* main section */
@@ -18,18 +22,29 @@
     padding-top: 20px;
 }
 
+.screen{
+    position:absolute;
+    top: 141px;
+    left: 666px;
+}
+.screen img{
+    width: 247px;
+}
+
 /* right section with login form  */
 .right{
+    background-color: #fff;
     height: 415px;
     border: 1px solid;
-    margin-left: -5px;
+    border-color:rgb(128, 128, 128,0.3) ;
+    margin-left: -13px;
     margin-top: 53px;
     width: 331px;
 }
 
 .login-form{
     padding: 4px;
-    color: white;
+    
 
 }
 
@@ -48,14 +63,14 @@
     width: 279px;
     height: 30px;
     margin-top: 10px;
-    border-color: aliceblue;
     border: 0.5px solid;
+    border-color:rgb(128, 128, 128,0.3) ;
 }
 
 /* login button section */
 .button{
     margin-top: 10px;
-    width: 261px;
+    width: 279px;
     height: 30px;
     background-color: #3897f0;
     border-radius: 5px;
@@ -69,19 +84,47 @@
     margin-top: 30px;
     text-align: center;
 }
-.fb h6{
+.fb p{
     
     margin-top: 10px;
+    font-size: 14px;
 }
-.fb h6 a{
+.fb p a{
     text-decoration: none;
 }
 
 /* lower section of the input page */
 .lower-part{
-    margin-left: -4px;
-margin-top:20px;
-width: 331px;
-height: 70px;
-border: 1px solid;
+    margin-left: -13px;
+    margin-top: 13px;
+    width: 332px;
+    height: 60px;
+    border: 1px solid;
+    border-color:rgb(128, 128, 128,0.3) ;
+    text-align: center;
+    background-color: #fff;
+   
+    
+
+}
+.lower-part p{
+    margin-top: 20px;
+    font-size: 14px; 
+}
+.lower-part p a{
+    
+    text-decoration: none;
+}
+
+/* app store and playstore part */
+.appstore{
+    text-align: center;
+    margin-top: 15px;
+}
+#play{
+    width: 130px;
+    margin-top: 15px;
+}
+#app{
+    width: 130px;
 }
