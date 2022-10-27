@@ -78,6 +78,14 @@ body{
     border-color: aliceblue;
 }
 
+.or{
+    text-align: center;
+    color: rgb(128, 128, 128,1);
+    margin-top: 20px;
+    font-size: small;
+  
+}
+
 /* login with facebook and forgott button */
 .fb{
     color: black;
@@ -86,11 +94,13 @@ body{
 }
 .fb p{
     
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 14px;
 }
 .fb p a{
+   
     text-decoration: none;
+    font-size: small;
 }
 
 /* lower section of the input page */
@@ -114,6 +124,8 @@ body{
 .lower-part p a{
     
     text-decoration: none;
+    color: #3897f0;
+    font-size: medium;
 }
 
 /* app store and playstore part */
