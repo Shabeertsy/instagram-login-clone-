@@ -89,16 +89,17 @@ body{
 /* login with facebook and forgott button */
 .fb{
     color: black;
-    margin-top: 30px;
+    margin-top: 28px;
     text-align: center;
 }
 .fb p{
     
     margin-top: 30px;
     font-size: 14px;
+    color:blue;
 }
 .fb p a{
-   
+   color: #3897f0;
     text-decoration: none;
     font-size: small;
 }
