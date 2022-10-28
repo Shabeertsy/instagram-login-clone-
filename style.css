@@ -141,3 +141,18 @@ body{
 #app{
     width: 130px;
 }
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 1614px) {
+
+    .left{
+        display: none;
+    }
+    .main-body{
+        justify-content: center;
+        align-items: center;
+    }
+
+}
